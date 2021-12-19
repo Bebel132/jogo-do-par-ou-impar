@@ -4,4 +4,4 @@
   <li>Obrigado ao <a src="https://github.com/Kisrym">Kisrym</a> me ajudou a fazer uns bagulho ai</li>
 </ul>
 <hr>
-<center><a src="">link</a></center>
+<br><a src="">link</a>
