@@ -4,28 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Jogo foda</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://cdn.discordapp.com/emojis/852953707792171028.png?size=96" type="image/x-icon">
 </head>
 <body>
-
-<!-- ATIVIDADE -->
-
-    <p>Jogo Par e Impar</p>
     <div class="box">
+        <a href=""></a>
         <div class="box-wrapper">
             <div class="instrucoes">
                 <h2>Instruções</h2>
                 <ul>
                     <li>Terá um campo de input, insira nele um número de 1 a 10</li>
-                    <li>O computador também irá gerar um número de 1 a 10</li>
+                    <li>O computador também irá gerar um número entre 1 e 10</li>
                     <li>O script irá somar os 2 valoes e ver se o resultado é par ou ímpar</li>
-                    <li>Se for par você ganha, senão o computador ganha</li>
-                    <li>O jogo é melhor de 5, ou seja, quem pegar 3 pontos primeiro ganha</li>
-                    <li>Aperte o botão abaixo para começar o jogo</li>
+                    <li>Você escolhe se vai querer apostar no valor par ou ímpar</li>
+                    <li>Você escolhe o número de jogadas, por exemplo, se o jogo é melhor de 5, quem pegar 3 pontos primeiro ganha</li>
                 </ul>
-                <input type="text" name="" placeholder="nome do jogador" id="nome_do_jogador">
+                <input type="text" name="" placeholder="nome do jogador" id="nome_do_jogador"><br><hr>
+                <p>Par ou ímpar?</p>
+                <label>Par</label><input type="radio" name="par-ou-impar" id="par"><br>
+                <label>Ímpar</label><input type="radio" name="par-ou-impar" id="impar"><hr>
+                <label>número de rodadas:</label>
+                <input type="number" name="" id="numero_de_rodadas">
             </div>
             <button onclick="comecar()" id="botaoComecar">começar</button>
             <div class="box-hidden">
