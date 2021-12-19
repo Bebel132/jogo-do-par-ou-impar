@@ -1,0 +1,94 @@
+*{
+    transition: .2s;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.box-hidden {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pontuacao {
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.pontuacao:hover {
+    border-radius: 10px;
+}
+
+.botao-comecar-block {
+    display: block;
+}
+
+.botao-comecar-hidden {
+    display: none;
+}
+
+.box {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 10px;
+}
+
+.box-wrapper {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    border: none;
+    box-shadow: 1px 1px 3px black;
+    background-color: rgb(134, 220, 223);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+button:hover {
+    transform: rotate(5deg) scale(1.2);
+}
+
+.campo, #nome_do_jogador {
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 50px 50px 0 50px;
+}
+
+.campo:hover, #nome_do_jogador:hover {
+    transform: scale(1.2);
+}
+
+ul {
+    text-align: left;
+}
+
+li {
+    margin: 10px 0;
+}
+
+.instrucoes-hidden {
+    display: none;
+}
+
+aside {
+    margin: 0 0 20px -20px;
+    width: 150px;
+}

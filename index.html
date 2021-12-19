@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ATIVIDADE -->
+
+    <p>Jogo Par e Impar</p>
+    <div class="box">
+        <div class="box-wrapper">
+            <div class="instrucoes">
+                <h2>Instruções</h2>
+                <ul>
+                    <li>Terá um campo de input, insira nele um número de 1 a 10</li>
+                    <li>O computador também irá gerar um número de 1 a 10</li>
+                    <li>O script irá somar os 2 valoes e ver se o resultado é par ou ímpar</li>
+                    <li>Se for par você ganha, senão o computador ganha</li>
+                    <li>O jogo é melhor de 5, ou seja, quem pegar 3 pontos primeiro ganha</li>
+                    <li>Aperte o botão abaixo para começar o jogo</li>
+                </ul>
+                <input type="text" name="" placeholder="nome do jogador" id="nome_do_jogador">
+            </div>
+            <button onclick="comecar()" id="botaoComecar">começar</button>
+            <div class="box-hidden">
+                <aside>
+                    <h3 id="jogador_nome">Jogador</h3>
+                    <div class="pontuacao pontuacao-jogador">
+                        <p>0</p>
+                    </div>
+                </aside>
+                <div class="game">
+                    <input type="number" class="campo"><br>
+                    <button onclick="apostar()" id="botao_aposta">apostar</button>
+                </div>
+                <aside>
+                    <h3>Computador</h3>
+                    <div class="pontuacao pontuacao-computador">
+                        <p>0</p>
+                    </div>
+                </aside>
+            </div>
+            <div class="valor-computador"></div>
+        </div>
+    </div>
+    <script src="script.js">
+        
+    </script>
+
+</body>
+</html>
